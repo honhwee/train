@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color:tomato ;
+           
+        }
+        .container{
+            width: 1200px;
+            margin:0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        .icon{
+            width: 32px;
+            height: 32px;
+        }
+        .header-title{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center; 
+            height: 64px;
+
+        }
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            flex:1;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .nav ul>li{
+            display: flex;
+            flex-direction: row;
+        }
+        .nav ul>li>a{
+            display: inline-block;
+            padding: 8px;
+            color: white;
+        }
+        .section-title{
+            text-align: center;
+        }
+        .gallery{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .container.column{
+            flex-direction: column;
+        }
+        footer{
+            background-color:rgb(128, 1, 19);
+            min-height: 300px;
+        }
+        footer .left{
+            color: white;
+            padding: 48px;
+            width: 500px;
+        }
+        footer .right{
+            margin-left: 250px;
+            padding: 16px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <img src="a.png" alt="logo" class="icon">
+                <span>我的小电影</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#喜欢的电影">喜欢的电影</a></li>
+                    <li><a href="#喜欢的书">喜欢的书</a></li>
+                    <li><a href="#">聊一聊</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container column">
+            <h2 class="section-title"  id="喜欢的书">喜欢的电影</h2>
+            <ul class="gallery">
+                <li>
+                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p511118051.jpg" alt="">
+                    <h4>这个杀手不太冷</h4>
+                </li>
+                <li>
+                    <img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2561305376.webp" alt="">
+                    <h4>我不是药神</h4>
+                </li>
+                <li>
+                    <img src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p480747492.jpg" alt="">
+                    <h4>肖申克的救赎</h4>
+                </li>
+                <li>
+                    <img src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2557573348.jpg" alt="">
+                    <h4>千与千寻</h4>
+                </li>
+            </ul>
+            <h2 class="section-title"  id="喜欢的书">喜欢的书</h2>
+            <ul class="gallery">
+                <li>
+                    <img src="https://img9.doubanio.com/view/subject/s/public/s29552296.jpg" alt="">
+                    <h4>哈利波特</h4>
+                </li>
+                <li>
+                    <img src="https://img9.doubanio.com/view/subject/s/public/s6384944.jpg" alt="">
+                    <h4>百年孤独</h4>
+                </li>
+                <li>
+                    <img src="https://img3.doubanio.com/view/subject/s/public/s29053580.jpg" alt="">
+                    <h4>活着</h4>
+                </li>
+                <li>
+                    <img src="https://img3.doubanio.com/view/subject/s/public/s1144911.jpg" alt="">
+                    <h4>平凡的世界</h4>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="left">
+                少年听雨歌楼上。红烛昏罗帐。
+                壮年听雨客舟中。
+                江阔云低、断雁叫西风。
+                而今听雨僧庐下。
+                鬓已星星也。悲欢离合总无情。
+                一任阶前、点滴到天明。
+            </div>
+            <div class="right">
+                <img src="right.png" alt="" width="250px">
+            </div>
+            
+        </div>
+        <div style="padding-top: 10px; padding-bottom: 10px; text-align:center; ">
+            <span style="color: white;  ">版权所有&nbsp;©&nbsp;林鸿辉</span>
+        </div>
+    </footer>
+</body>
+</html>
