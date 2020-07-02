@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .icon{
+            width: 32px;
+            height: 36px;
+            padding: 6px;
+        }
+        .header-title{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center; 
+            height: 32px;
+            padding: 4px;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .container{
+            width: 1200px;
+            margin:0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            flex:1;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        .nav ul>li{
+            display: flex;
+            flex-direction: row;
+        }
+        .nav ul>li>a{
+            display: inline-block;
+            padding: 8px;
+            color:black;
+            text-decoration: none;
+        }
+        .nav ul>li>a:hover{
+            color: black;
+        }
+        .nav ul>li>a:active{
+            color: black;
+        }
+        .section-title{
+            text-align: center;
+        }
+        
+       
+        .container.column{
+            flex-direction: column;
+        }
+        #story{
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 64px;
+            margin-right: 64px;
+        }
+        #story h2{
+            margin-top: 64px;
+            color: red;
+        }
+
+        #story p{
+            text-indent: 2em;
+        }
+        .we{
+            min-height: 300px;
+        }
+        .we .left{
+            color: white;
+            padding: 48px;
+        }
+        .we .right{
+            padding: 48px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <img src="恐龙.png" alt="logo" class="icon">
+                <span style="font-size: 18px;">侏罗纪世界</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" style="color: black;">首页</a></li>
+                    <li><a href="index.html#小电影">小电影</a></li>
+                    <li><a href="#故事背景">故事背景</a></li>
+                    <li><a href="#关于我们">关于我们</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 style="text-align: center;">关于我们</h1>
+    <we>
+        <div class="container">
+            <div class="left">
+                <img src="withus.jpg" alt="" >
+            </div>
+            <div class="right" >
+                <p style="margin-top: 96px; margin-bottom: 120px;">故事背景设定在一群男女从在岸边醒来后，发现自己身处一个充满恐龙的神秘岛屿“ARK”。除了狩猎、资源搜刮、物品打造、种植、科研、调查技术和建造房子来抵抗炎热的白天，冰冷的夜晚，易变的天气系统，危险的野外和潜在的敌人等之外，还必须面对其他的幸存者，合作或者是相互厮杀。并且有60种恐龙和其他史前生物，利用这些庞大的生物来和更强的敌人战斗。组织自己的部落，积累各种资源和经验来建立庞大的村庄和城市，不断发展技术来跨越原始的石器时代并进入现代的电气时代。</p>
+            </div>
+        </div>
+    </we>
+    <we class="container">
+        <div class="left" style="margin-left: 80px;margin-top: 48px;" >
+            <p>qq：1027762698</p>
+            <p>邮箱：1027762698@qq.com</p>
+            <p>关注我们：</p>
+            <p>https://www.baidu.com/link?url=x-2A7dn2Oc27PCz-bdWlBcvKeW1fvJOh0s5pZAFqhOEU6gQjIc25hDJLMtTrJsR-&wd=&eqid=d51ecf3000006799000000045efd6875</p>
+        </div>
+        <div class="right" >
+            <img src="二维码.png" alt="" width="80%">
+            <h4 >扫一扫，添加微信</h4>
+        </div>
+    </we>
+    <div style="padding-top: 10px; padding-bottom: 10px; text-align:center;background-color: rgb(50, 50, 50); ">
+        <span style="color: white;  ">版权所有&nbsp;©&nbsp;林鸿辉</span>
+    </div>
+    </body>
+</html>

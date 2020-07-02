@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .icon{
+            width: 32px;
+            height: 36px;
+            padding: 6px;
+        }
+        .header-title{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center; 
+            height: 32px;
+            padding: 4px;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .container{
+            width: 1200px;
+            margin:0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            flex:1;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        .nav ul>li{
+            display: flex;
+            flex-direction: row;
+        }
+        .nav ul>li>a{
+            display: inline-block;
+            padding: 8px;
+            color:black;
+            text-decoration: none;
+        }
+        .nav ul>li>a:hover{
+            color: black;
+        }
+        .nav ul>li>a:active{
+            color: black;
+        }
+        .section-title{
+            text-align: center;
+        }
+        .gallery{
+            padding: 24px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color:rgb(230, 230, 230);
+            
+        }
+        .movie{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .container.column{
+            flex-direction: column;
+            
+        }
+        .introduce{
+            min-height: 300px;
+        }
+        .introduce .left{
+            color: white;
+            padding: 48px;
+        }
+        .introduce .right{
+            padding: 48px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <img src="恐龙.png" alt="logo" class="icon">
+                <span style="font-size: 18px;">侏罗纪世界</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" style="color: black;">首页</a></li>
+                    <li><a href="#小电影">小电影</a></li>
+                    <li><a href="juqing.html">故事背景</a></li>
+                    <li><a href="withus.html">关于我们</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593241909114&di=43f29c01bc13d1baa7fbdfefe719d795&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F16140fac3d909c7aa65de9259ce32100cf5895e2.jpg" alt="" width="100%">
+    </div>
+    <section>
+        <div class="container column">
+            <h2 class="section-title"  id="任务目标">任务目标</h2>
+            <ul class="gallery">
+                <li>
+                    <img  src="生存.png" alt="" width="70%">
+                    <h4>生存发展</h4>
+                </li>
+                <li>
+                    <img  src="别墅.png" alt="" width="70%">
+                    <h4>建造基地</h4>
+                </li>
+                <li>
+                    <img src="驯养.png" alt="" width="70%"> 
+                    <h4>驯养恐龙</h4>
+                </li>
+                <li>
+                    <img  src="飞升.png" alt="" width="105%">
+                    <h4>飞升进化</h4>
+                </li>
+            </ul>
+            <h2 class="section-title"  id="恐龙介绍">恐龙介绍</h2>
+            
+            <introduce>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593506995189&di=db095aeb9025fdf8b6dc37c0235f8437&imgtype=0&src=http%3A%2F%2Fi-2.391k.com%2F2015%2F11%2F29%2FW3dtOjEucG5nLHI6MTMsYjoxM10%3D%2F49c14025-c4f6-42d0-8460-a239ecbd54db.jpg" alt="" >
+                    </div>
+                    <div class="right" style="margin-left: 120px; " >
+                        <h2 align="center">南方巨兽龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">南方巨兽龙（拉丁学名Giganotosaurus）的含义为“巨大的南部爬行动物”。最大体长13.8米，最大体重10.52吨。生活在1亿到9600万年前白垩纪的南美洲阿根廷。拥有强大的咬合力和极快撕咬速度以及如同钢刀一样锋利的牙齿。陆地动物里咬合力仅次于霸王龙。</p>
+                        <p>战斗力排名：第1</p>
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">泰坦龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">泰坦龙，是最后的爬行足、食植物的动物，但其尾脊椎残体多为碎片。然而它的形式似乎没变，头小、尾长、大象般的肢，颈有点短。其最重要的区别处是尾脊椎开始处的球凸和凹窝铰合处。由于脸很长，故最完整的颅有点像梁龙。至少有一种骨质鳞甲演化为甲壳。</p>
+                        <p>战斗力排名：第2</p>
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1867040363,1957190409&fm=26&gp=0.jpg" alt="" width="">
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593509797418&di=6ec81e7671c25749ddac96a5e2e74a92&imgtype=0&src=http%3A%2F%2Fimg.game333.net%2Fuploads%2Fgl%2F2015%2F06%2F09%2F2015060995904541.jpg" alt="" width="150%">
+                    </div>
+                    <div class="right" style="margin-left: 240px; " >
+                        <h2 align="center">霸王龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">霸王龙即雷克斯龙（Tyrannosaurus Rex），生存于白垩纪末期的马斯特里赫特期(MAA)距今约6850万年到6500万年的白垩纪最末期，是白垩纪-第三纪灭绝事件前最后的非鸟类的恐龙种类之一。化石分布于北美洲的美国与加拿大，是最晚灭绝的恐龙之一。</p>
+                        <p>战斗力排名：第3</p>
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">棘背龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">棘龙意思为「有棘的蜥蜴」，是一类大型兽脚类肉食龙，体长11到17米，臀高270至400厘米，体重4到14吨，生存于白垩纪的北非，约为11400万年前到6500万年前。分布区域包括摩洛哥、阿尔及利亚、利比亚、埃及、突尼斯，可能还有西撒哈拉、尼日尔和肯尼亚。截止21世纪发现的棘龙属有两个种，其中最著名的种是发现于埃及的埃及棘龙（S. aegyptiacus），而第二个种摩洛哥棘龙（S. marocannus）发现于摩洛哥。棘龙是由德国古生物学家恩斯特·斯特莫（Ernst Stromer）发现于埃及并在1915年加以叙述，最初的标本在二战期间在被盟军摧毁，所以它的化石非常珍贵。</p>
+                        <p>战斗力排名：第4</p>
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1744752666,704661356&fm=26&gp=0.jpg" alt="" width="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593510366448&di=297155000abb59d42181f6c41e53ea2c&imgtype=0&src=http%3A%2F%2Fimg1.ali213.net%2Fglpic%2F2018%2F05%2F07%2F584_2018050751737720.jpg" alt="" >
+                    </div>
+                    <div class="right" style="margin-left: 120px; " >
+                        <h2 align="center">镰刀龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">镰刀龙是一种行动缓慢的大型兽脚类恐龙，其利爪状如镰刀，非常奇特。古生物学家认为，镰刀龙是肉食性恐龙中一种特化的类群，其祖先为小型腔骨龙类，与暴龙相同。它以植物、水果和昆虫为食，它所具有的一系列异化特征可能都是趋同演化的结果。镰刀龙主要分布在今东亚和北美洲，大多数种类生存于白垩纪晚期，不过文献显示在侏罗纪早期的岩层中也曾发现过镰刀龙类群的化石。</p>
+                        <p>战斗力排名：第5</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">斑龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">斑龙（属名：Megalosaurus）又名巨龙、巨齿龙，属名在希腊文意为“巨大的蜥蜴”，斑龙是种大型肉食性恐龙，生存于中侏罗纪巴通阶的欧洲（英格兰南部、法国、葡萄牙）。斑龙是侏罗纪晚期一种体型庞大的肉食性兽脚类恐龙，其遗骸非常破碎，里面可能还混杂其他兽脚类骨骼的破片。 斑龙这个名字希腊文的意思是“巨大的蜥蜴”，研究者们就曾一度把食肉牛龙的化石划到了斑龙类里面。 </p>
+                        <p>战斗力排名：第6</p>
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1500920538,1604205158&fm=26&gp=0.jpg" alt="" width="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2423457538,3333876387&fm=26&gp=0.jpg" alt="" >
+                    </div>
+                    <div class="right" style="margin-left: 120px; " >
+                        <h2 align="center">雷龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">雷龙（Brontosaurus），曾被归入迷惑龙（学名Apatosaurus），是蜥脚下目梁龙科下的一个属，生活于侏罗纪的启莫里阶到提通阶之间，约1亿5000万年前。它们是陆地上存在的最大动物之一，身长约20米，体重介于10到25吨。它们的属名在希腊语意为“雷鸣蜥蜴”，这是因它身躯庞大，走路时发出雷鸣般的响声。</p>
+                        <p>战斗力排名：第7</p>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">异特龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">异特龙，又名跃龙或异龙，是蜥臀目兽脚亚目肉食龙下目恐龙的一属。异特龙是种中型的二足、肉食性恐龙，身长8.5米，最大9.7米，体重1.5~3吨最重3.6吨。它们生存于晚侏罗纪，约1亿5500万年前到1亿3500万年前。自从在1877年被奥塞内尔·查利斯·马什（Othniel Charles Marsh）命名以来，已有许多的可能种被归类于异特龙属，但只有少数被认为是有效种。异特龙非常聪明，会围攻大型猎物，是一种庞大、凶猛的肉食性恐龙。 </p>
+                        <p>战斗力排名：第8</p>
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3962777230,3982519038&fm=26&gp=0.jpg" alt="" width="">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left">
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593511233210&di=c1e3129d3949edfd0e8849a1f0e36da6&imgtype=0&src=http%3A%2F%2Fimg.18183.com%2Fuploads%2Fallimg%2F180807%2F216-1PPG40451.jpg%40%252118183" alt="" >
+                    </div>
+                    <div class="right" style="margin-left: 120px; " >
+                        <h2 align="center">重爪龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 120px;">重爪龙，原意属名为坚实的利爪，沃克氏重爪龙的爪子比较其体躯而言真是庞大,重爪龙属于食肉的兽脚类恐龙，以前肢有大的爪而得名。重爪龙发现于英国南部，与其它的食肉恐龙有很大差别，除了前肢有大的爪而不象其它大型兽脚类恐龙那样前肢非常退化外，嘴和牙齿也类似于鳄鱼而不似其它大型兽脚类恐龙，可能也是象鳄鱼一样以鱼为食。沃克氏重爪龙的牙齿和上、下颚与鳄类极为相似，非常可能它生活在水边，或者潜入浅水中，用它可怕的利爪来捕食鳄鱼，很像是大型灰熊一般。</p>
+                        <p>战斗力排名：第9</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left" style="margin-right: 120px; ">
+                        <h2 align="center">牛龙</h2>
+                        <p style="margin-top: 40px; margin-bottom: 40px;">牛龙 （属名：Carnotaurus）又名食肉牛龙、肉食牛龙，属于兽脚亚目角鼻龙下目的阿贝力龙科，是一类大型的肉食性恐龙。由于头顶有两只触角，顾名思义为牛龙，模式种萨氏食肉牛龙。食肉牛龙生活白垩纪末期的（麦斯特里希特阶）的阿根廷巴塔哥尼亚，由发现很多南美洲恐龙的何塞·波拿巴（Jose F. Bonaparte）在1985年所描述及命名。食肉牛龙是种擅长奔跑的高速掠食者，是已知的奔跑速度最快的大型恐龙，速度可达每小时60公里，加上小腿较细、脑袋高、尾巴偏细、腿部极其长，也被称为白垩纪的猎豹。根据唯一发现的一个很完整的骨架，食肉牛龙体长8米，体重3吨，臀高3米。</p>
+                        <p>战斗力排名：第10</p>
+                        
+                    </div>
+                    <div class="right" >
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593511469906&di=f276f9c356d7210beb2d1d168f3e5677&imgtype=0&src=http%3A%2F%2Ft8.baidu.com%2Fit%2Fu%3D3429099404%2C502075276%26fm%3D193" alt="" width="">
+                    </div>
+                </div>
+
+                
+            </introduce>
+            <h2 class="section-title"  id="小电影">电影欣赏</h2>
+            <ul class="movie">
+                <li>
+                    <video width="480" height="320" controls>
+                        <source src="孤岛.mp4" type="video/mp4">
+                        <source src="孤岛.ogg" type="video/ogg">
+                        <source src="孤岛.webm" type="video/webm">
+                        <object data="孤岛.mp4" width="280" height="180">
+                          <embed src="孤岛.swf" width="280" height="180">
+                        </object> 
+                    </video>
+                    <h4>孤岛篇</h4>
+                </li>
+                <li>
+                    <video width="480" height="320" controls>
+                        <source src="焦土.mp4" type="video/mp4">
+                        <source src="焦土.ogg" type="video/ogg">
+                        <source src="焦土.webm" type="video/webm">
+                        <object data="焦土.mp4" width="280" height="180">
+                          <embed src="焦土.swf" width="280" height="180">
+                        </object> 
+                    </video>
+                    <h4>焦土篇</h4>
+                </li>
+                
+            </ul>
+            <ul class="movie">
+                <li>
+                    <video width="480" height="320" controls>
+                        <source src="畸变.mp4" type="video/mp4">
+                        <source src="畸变.ogg" type="video/ogg">
+                        <source src="畸变.webm" type="video/webm">
+                        <object data="畸变.mp4" width="280" height="180">
+                          <embed src="畸变.swf" width="280" height="180">
+                        </object> 
+                    </video>
+                    <h4>畸变篇</h4>
+                </li>
+                <li>
+                    <video width="480" height="320" controls>
+                        <source src="灭绝.mp4" type="video/mp4">
+                        <source src="灭绝.ogg" type="video/ogg">
+                        <source src="灭绝.webm" type="video/webm">
+                        <object data="灭绝.mp4" width="280" height="180">
+                          <embed src="灭绝.swf" width="280" height="180">
+                        </object> 
+                    </video>
+                    <h4>灭绝篇</h4>
+                </li>
+
+            </ul>
+            <ul class="movie">
+                <li>
+                    <video width="480" height="320" controls>
+                        <source src="仙境篇.mp4" type="video/mp4">
+                        <source src="仙境篇.ogg" type="video/ogg">
+                        <source src="仙境篇.webm" type="video/webm">
+                        <object data="仙境篇.mp4" width="280" height="180">
+                          <embed src="仙境篇.swf" width="280" height="180">
+                        </object> 
+                    </video>
+                    <h4>仙境篇</h4>
+                </li>
+                <li>
+                    <video width="480" height="320" controls>
+                        <source src="中心岛.mp4" type="video/mp4">
+                        <source src="中心岛.ogg" type="video/ogg">
+                        <source src="中心岛.webm" type="video/webm">
+                        <object data="中心岛.mp4" width="280" height="180">
+                          <embed src="中心岛.swf" width="280" height="180">
+                        </object> 
+                    </video>
+                    <h4>中心岛</h4>
+                </li>
+
+            </ul>
+            <ul class="movie">
+                <li>
+                    <video width="480" height="320" controls>
+                        <source src="瓦尔盖罗.mp4" type="video/mp4">
+                        <source src="瓦尔盖罗.ogg" type="video/ogg">
+                        <source src="瓦尔盖罗.webm" type="video/webm">
+                        <object data="瓦尔盖罗.mp4" width="280" height="180">
+                          <embed src="瓦尔盖罗.swf" width="280" height="180">
+                        </object> 
+                    </video>
+                    <h4>瓦尔盖罗</h4>
+                </li>
+            </ul>
+           
+        </div>
+    </section>
+    <div style="padding-top: 10px; padding-bottom: 10px; text-align:center;background-color: rgb(50, 50, 50); ">
+        <span style="color: white;  ">版权所有&nbsp;©&nbsp;林鸿辉</span>
+    </div>
+
+</body>
+</html>
