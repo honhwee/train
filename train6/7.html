@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .icon{
+            width: 32px;
+            height: 36px;
+            padding: 6px;
+        }
+        .header-title{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center; 
+            height: 32px;
+            padding: 4px;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .container{
+            width: 1200px;
+            margin:0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            flex:1;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        .nav ul>li{
+            display: flex;
+            flex-direction: row;
+        }
+        .nav ul>li>a{
+            display: inline-block;
+            padding: 8px;
+            color:black;
+            text-decoration: none;
+        }
+        .nav ul>li>a:hover{
+            color: black;
+        }
+        .nav ul>li>a:active{
+            color: black;
+        }
+        .section-title{
+            text-align: center;
+        }
+        .gallery{
+            padding: 24px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color:rgb(230, 230, 230);
+            
+        }
+        .movie{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .container.column{
+            flex-direction: column;
+            
+        }
+        .introduce{
+            min-height: 300px;
+        }
+        .introduce .left{
+            color: white;
+            padding: 48px;
+        }
+        .introduce .right{
+            padding: 48px;
+        }
+        ul.pagination {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        ul.pagination li {display: inline;}
+
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        div.center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <img src="恐龙.png" alt="logo" class="icon">
+                <span style="font-size: 18px;">侏罗纪世界</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" style="color: black;">首页</a></li>
+                    <li><a href="#小电影">小电影</a></li>
+                    <li><a href="juqing.html">故事背景</a></li>
+                    <li><a href="withus.html">关于我们</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="left">
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2423457538,3333876387&fm=26&gp=0.jpg" alt="" >
+        </div>
+        <div class="right" style="margin-left: 120px; " >
+            <h2 align="center">雷龙</h2>
+            <p style="margin-top: 40px; margin-bottom: 120px;">雷龙（Brontosaurus），曾被归入迷惑龙（学名Apatosaurus），是蜥脚下目梁龙科下的一个属，生活于侏罗纪的启莫里阶到提通阶之间，约1亿5000万年前。它们是陆地上存在的最大动物之一，身长约20米，体重介于10到25吨。它们的属名在希腊语意为“雷鸣蜥蜴”，这是因它身躯庞大，走路时发出雷鸣般的响声。</p>
+            <p>战斗力排名：第7</p>
+        </div>
+    </div>
+    
+    <div class="center">
+        <ul class="pagination">
+            <li><a href="#">«</a></li>
+            <li><a href="1.html">1</a></li>
+            <li><a href="2.html">2</a></li>
+            <li><a href="3.html">3</a></li>
+            <li><a href="4.html">4</a></li>
+            <li><a href="5.html">5</a></li>
+            <li><a href="6.html">6</a></li>
+            <li><a href="7.html">7</a></li>
+            <li><a href="8.html">8</a></li>
+            <li><a href="9.html">9</a></li>
+            <li><a href="10.html">10</a></li>
+            <li><a href="#">»</a></li>
+        </ul>
+    </div>
+

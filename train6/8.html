@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .icon{
+            width: 32px;
+            height: 36px;
+            padding: 6px;
+        }
+        .header-title{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center; 
+            height: 32px;
+            padding: 4px;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .container{
+            width: 1200px;
+            margin:0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            flex:1;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        .nav ul>li{
+            display: flex;
+            flex-direction: row;
+        }
+        .nav ul>li>a{
+            display: inline-block;
+            padding: 8px;
+            color:black;
+            text-decoration: none;
+        }
+        .nav ul>li>a:hover{
+            color: black;
+        }
+        .nav ul>li>a:active{
+            color: black;
+        }
+        .section-title{
+            text-align: center;
+        }
+        .gallery{
+            padding: 24px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color:rgb(230, 230, 230);
+            
+        }
+        .movie{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .container.column{
+            flex-direction: column;
+            
+        }
+        .introduce{
+            min-height: 300px;
+        }
+        .introduce .left{
+            color: white;
+            padding: 48px;
+        }
+        .introduce .right{
+            padding: 48px;
+        }
+        ul.pagination {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        ul.pagination li {display: inline;}
+
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        div.center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <img src="恐龙.png" alt="logo" class="icon">
+                <span style="font-size: 18px;">侏罗纪世界</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" style="color: black;">首页</a></li>
+                    <li><a href="#小电影">小电影</a></li>
+                    <li><a href="juqing.html">故事背景</a></li>
+                    <li><a href="withus.html">关于我们</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="left" style="margin-right: 120px; ">
+            <h2 align="center">异特龙</h2>
+            <p style="margin-top: 40px; margin-bottom: 120px;">异特龙，又名跃龙或异龙，是蜥臀目兽脚亚目肉食龙下目恐龙的一属。异特龙是种中型的二足、肉食性恐龙，身长8.5米，最大9.7米，体重1.5~3吨最重3.6吨。它们生存于晚侏罗纪，约1亿5500万年前到1亿3500万年前。自从在1877年被奥塞内尔·查利斯·马什（Othniel Charles Marsh）命名以来，已有许多的可能种被归类于异特龙属，但只有少数被认为是有效种。异特龙非常聪明，会围攻大型猎物，是一种庞大、凶猛的肉食性恐龙。 </p>
+            <p>战斗力排名：第8</p>
+            
+        </div>
+        <div class="right" >
+            <img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3962777230,3982519038&fm=26&gp=0.jpg" alt="" width="">
+        </div>
+    </div>
+    <div class="center">
+        <ul class="pagination">
+            <li><a href="#">«</a></li>
+            <li><a href="1.html">1</a></li>
+            <li><a href="2.html">2</a></li>
+            <li><a href="3.html">3</a></li>
+            <li><a href="4.html">4</a></li>
+            <li><a href="5.html">5</a></li>
+            <li><a href="6.html">6</a></li>
+            <li><a href="7.html">7</a></li>
+            <li><a href="8.html">8</a></li>
+            <li><a href="9.html">9</a></li>
+            <li><a href="10.html">10</a></li>
+            <li><a href="#">»</a></li>
+        </ul>
+    </div>
+

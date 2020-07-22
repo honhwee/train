@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .icon{
+            width: 32px;
+            height: 36px;
+            padding: 6px;
+        }
+        .header-title{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center; 
+            height: 32px;
+            padding: 4px;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .container{
+            width: 1200px;
+            margin:0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content:flex-end;
+            flex:1;
+        }
+        .clearfix{
+            clear: both;
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+        .nav ul>li{
+            display: flex;
+            flex-direction: row;
+        }
+        .nav ul>li>a{
+            display: inline-block;
+            padding: 8px;
+            color:black;
+            text-decoration: none;
+        }
+        .nav ul>li>a:hover{
+            color: black;
+        }
+        .nav ul>li>a:active{
+            color: black;
+        }
+        .section-title{
+            text-align: center;
+        }
+        .gallery{
+            padding: 24px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color:rgb(230, 230, 230);
+            
+        }
+        .movie{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .container.column{
+            flex-direction: column;
+            
+        }
+        .introduce{
+            min-height: 300px;
+        }
+        .introduce .left{
+            color: white;
+            padding: 48px;
+        }
+        .introduce .right{
+            padding: 48px;
+        }
+        ul.pagination {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        ul.pagination li {display: inline;}
+
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        div.center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-title">
+                <img src="恐龙.png" alt="logo" class="icon">
+                <span style="font-size: 18px;">侏罗纪世界</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" style="color: black;">首页</a></li>
+                    <li><a href="#小电影">小电影</a></li>
+                    <li><a href="juqing.html">故事背景</a></li>
+                    <li><a href="withus.html">关于我们</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="left">
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593511233210&di=c1e3129d3949edfd0e8849a1f0e36da6&imgtype=0&src=http%3A%2F%2Fimg.18183.com%2Fuploads%2Fallimg%2F180807%2F216-1PPG40451.jpg%40%252118183" alt="" >
+        </div>
+        <div class="right" style="margin-left: 120px; " >
+            <h2 align="center">重爪龙</h2>
+            <p style="margin-top: 40px; margin-bottom: 120px;">重爪龙，原意属名为坚实的利爪，沃克氏重爪龙的爪子比较其体躯而言真是庞大,重爪龙属于食肉的兽脚类恐龙，以前肢有大的爪而得名。重爪龙发现于英国南部，与其它的食肉恐龙有很大差别，除了前肢有大的爪而不象其它大型兽脚类恐龙那样前肢非常退化外，嘴和牙齿也类似于鳄鱼而不似其它大型兽脚类恐龙，可能也是象鳄鱼一样以鱼为食。沃克氏重爪龙的牙齿和上、下颚与鳄类极为相似，非常可能它生活在水边，或者潜入浅水中，用它可怕的利爪来捕食鳄鱼，很像是大型灰熊一般。</p>
+            <p>战斗力排名：第9</p>
+        </div>
+    </div>
+    <div class="center">
+        <ul class="pagination">
+            <li><a href="#">«</a></li>
+            <li><a href="1.html">1</a></li>
+            <li><a href="2.html">2</a></li>
+            <li><a href="3.html">3</a></li>
+            <li><a href="4.html">4</a></li>
+            <li><a href="5.html">5</a></li>
+            <li><a href="6.html">6</a></li>
+            <li><a href="7.html">7</a></li>
+            <li><a href="8.html">8</a></li>
+            <li><a href="9.html">9</a></li>
+            <li><a href="10.html">10</a></li>
+            <li><a href="#">»</a></li>
+        </ul>
+    </div>
+
+
